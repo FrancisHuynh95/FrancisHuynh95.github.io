@@ -317,18 +317,19 @@
                     <!-- To make this form functional, sign up at-->
                     <!-- https://startbootstrap.com/solution/contact-forms-->
                     <!-- to get an API token!-->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="https://formspree.io/f/mqkovbzj" method="POST">
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN" action="https://formspree.io/f/mqkovbzj/"
+                        method="POST">
                         <!-- Name input-->
                         <div class="form-floating mb-3">
-                            <input name="FullName" class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                data-sb-validations="required" />
+                            <input name="FullName" class="form-control" id="name" type="text"
+                                placeholder="Enter your name..." data-sb-validations="required" />
                             <label for="name">Full name</label>
                             <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
                         <!-- Email address input-->
                         <div class="form-floating mb-3">
-                            <input name="email" class="form-control" id="email" type="email" placeholder="name@example.com"
-                                data-sb-validations="required,email" />
+                            <input name="email" class="form-control" id="email" type="email"
+                                placeholder="name@example.com" data-sb-validations="required,email" />
                             <label for="email">Email address</label>
                             <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                             <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
@@ -367,7 +368,7 @@
                             <div class="text-center text-danger mb-3">Error sending message!</div>
                         </div>
                         <!-- Submit Button-->
-                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                        <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send</button>
                     </form>
                 </div>
             </div>
@@ -396,7 +397,6 @@
                     <a class="btn btn-outline-light btn-social mx-1"
                         href="mailto:francishuynhsoftwareengineer@gmail.com" target="_blank"><i
                             class="fas fa-envelope"></i></i></a>
-
                 </div>
 
                 <!-- Footer About Text-->
@@ -557,7 +557,6 @@
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
