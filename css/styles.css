@@ -628,6 +628,7 @@ progress {
   max-width: 300px;
   height: auto;
   max-height: 300px;
+  display: flex;
 }
 
 .img-thumbnail {
@@ -11043,6 +11044,12 @@ html {
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+}
+
+.portfolio-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-modal .btn-close {
