@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hidden1{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100px);
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.projects {
+    background-color: rgb(2, 2, 2);
+}
+
+.project:hover{
+    cursor: pointer;
+    box-shadow: 4px 2px 5px gray;
+}
+
+
